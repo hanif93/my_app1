@@ -31,9 +31,7 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 
-  gem 'pg'
-  gem 'rails_12factor', group: :production 
-  ruby '1.9.3' 
+
 end
 
 # Use ActiveModel has_secure_password
@@ -47,3 +45,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'pg'
+  gem 'rails_12factor', group: :production 
+  ruby '1.9.3' 
